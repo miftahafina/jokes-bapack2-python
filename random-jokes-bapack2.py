@@ -13,9 +13,10 @@ def random_joke():
 
 jokes       = get_jokes()
 total_jokes = len(jokes)
+command     = ''
 
-while True:
+while command.lower().strip() != 'exit':
     clear()
     print(random_joke())
-    print('\nPress [enter] to get another jokes')
-    input()
+    print('\nPress [enter] to get another jokes, or type "exit" if you want to.')
+    command = input()
