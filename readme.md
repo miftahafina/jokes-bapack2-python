@@ -3,7 +3,7 @@ Get random jokes bapack2 from [jokes-bapack2-api](https://github.com/andhikayuan
 
 ## Requirements
 - Python
-- [Request](https://pypi.org/project/requests/) HTTP library
+- [Requests](https://pypi.org/project/requests/) HTTP library
 
 ## How to Run
 ```py random-jokes-bapack2.py```
